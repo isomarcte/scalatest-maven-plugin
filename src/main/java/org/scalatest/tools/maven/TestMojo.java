@@ -14,13 +14,14 @@ import java.util.ArrayList;
  * Provides a bridge between Maven and the command-line form of ScalaTest's Runner.
  * Many of the configuration options available on this goal
  * are directly reflected in the Runner ScalaDoc on http://www.scalatest.org.
- * 
+ *
  * @author Sean Griffin
  * @author Mike Pilquist
  * @author Jon-Anders Teigen
  * @author Bill Venners
  * @phase test
  * @goal test
+ * @aggregator true
  */
 public class TestMojo extends AbstractScalaTestMojo {
 
